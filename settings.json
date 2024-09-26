@@ -1,0 +1,75 @@
+{
+	// Prettier
+	"prettier.arrowParens": "avoid",
+	"prettier.jsxSingleQuote": true,
+	"prettier.semi": false,
+	"prettier.singleQuote": true,
+	"prettier.tabWidth": 2,
+	"prettier.trailingComma": "all",
+	"prettier.useTabs": true,
+
+	// Emmet
+	"emmet.triggerExpansionOnTab": true,
+
+	// Code Spell Checker
+	"cSpell.language": "en,ru,uk",
+	"cSpell.ignoreWords": ["Consolas", "Parens", "donot", "esbenp"],
+
+	// LiveServer
+	"liveServer.settings.donotShowInfoMsg": true,
+
+	// Editor
+	"editor.cursorBlinking": "expand", // Выбор типа мерцания курсора
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.cursorStyle": "line", // Выбор типа курсора
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.detectIndentation": true,
+	"editor.folding": false, // Сворачивание кода
+	"editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace", // Шрифт
+	"editor.fontLigatures": true, // Лигатуры
+	"editor.fontSize": 14, // Размер шрифта
+	"editor.formatOnPaste": true, // Форматировать текст при вставке
+	"editor.formatOnSave": true, // ФОрматировать текст при записи
+	"editor.glyphMargin": false, // Панель отладки
+	"editor.hover.enabled": false, // Подсказки
+	"editor.insertSpaces": false, // Табуляция вместо пробелов
+	"editor.lineHeight": 1.5, //  Высота строки
+	"editor.linkedEditing": true, // Редактирование парных тэгов
+	"editor.padding.top": 5, // Отступ сверху перед текстом кода
+	"editor.renderWhitespace": "selection", // Видимость табуляции или пробелов
+	"editor.rulers": [160], // Линейка
+	"editor.smoothScrolling": true, // Плавный скроллинг
+	"editor.suggestSelection": "first",
+	"editor.tabSize": 2, // Размер табуляции
+	"editor.wordWrap": "on", // Перенос текста
+	"editor.wordWrapColumn": 140,
+
+	// Breadcrumbs
+	"breadcrumbs.enabled": false, // Хлебные крошки
+
+	// Terminal
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.cursorStyle": "underline",
+	"terminal.integrated.defaultProfile.windows": "Command Prompt",
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.smoothScrolling": true,
+
+	// Workbench
+	"workbench.colorTheme": "Adonis+ Eclipse",
+	"workbench.iconTheme": "symbols",
+	"workbench.layoutControl.enabled": false,
+	"workbench.list.smoothScrolling": true,
+	"workbench.startupEditor": "none",
+	"workbench.tree.indent": 18,
+
+	// Window
+	"window.commandCenter": true,
+	"window.density.editorTabHeight": "default",
+	"window.menuBarVisibility": "toggle",
+	"window.zoomLevel": 0, // Масштабирование
+
+	//
+	"explorer.compactFolders": false, // Компактный вид открытых папок
+	"files.autoSave": "afterDelay", // Автоматическое сохранение
+	"http.proxySupport": "off"
+}
