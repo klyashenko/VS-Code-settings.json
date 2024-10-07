@@ -18,7 +18,7 @@
 	// LiveServer
 	"liveServer.settings.donotShowInfoMsg": true,
 
-	// Editor
+	// editor
 	"editor.cursorBlinking": "expand", // Выбор типа мерцания курсора
 	"editor.cursorSmoothCaretAnimation": "on",
 	"editor.cursorStyle": "line", // Выбор типа курсора
@@ -44,17 +44,17 @@
 	"editor.wordWrap": "on", // Перенос текста
 	"editor.wordWrapColumn": 140,
 
-	// Breadcrumbs
+	// breadcrumbs
 	"breadcrumbs.enabled": true, // Хлебные крошки
 
-	// Terminal
+	// terminal
 	"terminal.integrated.cursorBlinking": true,
 	"terminal.integrated.cursorStyle": "underline",
 	"terminal.integrated.defaultProfile.windows": "Windows PowerShell",
 	"terminal.integrated.fontSize": 14,
 	"terminal.integrated.smoothScrolling": true,
 
-	// Workbench
+	// workbench
 	"workbench.colorTheme": "Adonis+ Eclipse",
 	"workbench.iconTheme": "symbols",
 	"workbench.layoutControl.enabled": false,
@@ -63,14 +63,18 @@
 	"workbench.tree.indent": 18,
 	"workbench.tree.renderIndentGuides": "always",
 
-	// Window
+	// window
 	"window.commandCenter": true,
 	"window.density.editorTabHeight": "default",
 	"window.menuBarVisibility": "toggle",
-	"window.zoomLevel": 0, // Масштабирование
+	"window.zoomLevel": 0,
 
-	//
+	// explorer
 	"explorer.compactFolders": false, // Компактный вид открытых папок
+
+	// files
 	"files.autoSave": "afterDelay", // Автоматическое сохранение
+
+	// http
 	"http.proxySupport": "off"
 }
